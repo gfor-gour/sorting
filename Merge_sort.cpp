@@ -27,8 +27,8 @@ void _merge(vector<int>&arr,int left,int mid,int right){
                 arr[k++] = L[i];
                 i++;
             }
-            while(j<n1){
-                arr[k++] = L[j];
+            while(j<n2){
+                arr[k++] = R[j];
                 j++;
             }
 }
